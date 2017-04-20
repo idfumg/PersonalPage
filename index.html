@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <title>idfumg.com</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/w3-theme-grey.css">
+
+  <script type="text/javascript" src="js/TypingText.js"></script>
+
+  <style>
+    @font-face {
+        font-family: "Clearly";
+        src: url(fonts/PrintClearly_TT.ttf) format("truetype");
+    }
+
+    @font-face {
+        font-family: "Redressed";
+        src: url(fonts/Redressed.ttf) format("truetype");
+    }
+
+    .clearly-font, h4 {
+        font-family:  "Clearly", Arial, Verdana, Tahoma;
+        font-size: 24px;
+    }
+
+    h3 {
+        font-family: "Redressed", Verdana, Tahoma;
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+    h4 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    hr {
+        border: 1px solid black;
+    }
+
+    .card {
+        margin-bottom: 40px;
+        text-align: justify;
+    }
+
+    .w3-topnav {
+        margin-bottom: 60px;
+    }
+
+    #home {
+        margin-top: 10%;
+    }
+
+    .w3-topnav a:hover {
+        border-bottom: 3px solid black;
+    }
+
+    #contact {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #home {
+        margin: 0;
+        padding: 0;
+    }
+  </style>
+
+  <body class="clearly-font grey">
+
+    <div class="w3-topnav w3-padding">
+      <a href="#" onclick="show_home();">Home</a>
+      <a href="#" onclick="show_about();">About</a>
+      <a href="http://blog.idfumg.com" target="_blank">Blog</a>
+    </div>
+
+    <div id="home" class="w3-container w3-center">
+      <img id="feather-caption" src="images/artempushkin3.png"></img><br>
+      <span id="welcome-typing">Welcome to my page!</span>
+    </div>
+
+    <div id="about" class="w3-container" style="display: none;">
+
+      <div class="w3-theme w3-container card">
+        <h3 class="w3-center">
+          About<br>
+          <img src="images/line.png" class="image w3-center"></img><br>
+        </h3>
+        <span>My name is Artem. I was born in Russia, Tomsk. I live and work
+          in Russia, Moscow. I like computer science, programming, self-development,
+          sport, strive for the best.</span>
+      </div>
+
+      <div class="w3-theme w3-container w3-center card">
+        <h3 class="w3-center">
+          Skills<br>
+          <img src="images/line.png" class="image w3-center"></img><br>
+        </h3>
+        <div class="w3-padding w3-half">
+          <div>
+            <h4>C++</h4>
+          </div>
+          <div>
+            <h4>Python</h4>
+          </div>
+        </div>
+        <div class="w3-padding w3-half">
+          <div>
+            <h4>JS/CSS/HTML</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-theme w3-container w3-padding card">
+        <h3 class="w3-center">
+          Interests<br>
+          <img src="images/line.png" class="image w3-center"></img><br>
+        </h3>
+        <div>
+          <p>My goal is to learn a new as much as possible. I like C/C++ language. It's robust, reliable code. I like Python language also for Its simplicity and very high human readability. I like Linux and its style of organisation. I try to improve my programming skills every time to achieve more readable, robust code. I am interest in disributed systems and a service style architecture.</p>
+        </div>
+      </div>
+
+      <div class="w3-theme  w3-container w3-padding card">
+        <h3 class="w3-center">
+          Career<br>
+          <img src="images/line.png" class="image w3-center"></img><br>
+        </h3>
+        <div class="w3-padding w3-half">
+          <h4>Komtex-N</h4>
+          <p>I am work at Komtex-N since 2013 - now.
+It is a company that make programing systems for civil airlines and a railway. This systems work 24*7*365 and written in C++. When I come to the team, I start to develop a new project for railway tickets reservation. This project had base working functionality, already. After a few months I start to develop the project by myself with worthwhile advices of my chief. I learn a lot of new here. I learn quite a bit of functional programming, stateless code design, pure functions, to be constant as much as possible and an accordingly ideology. Every time I write code I try to refactor it to achieve more readability, robust and reliable code. This helps me to increase my programming skills. I rewrite most of existing code of my project. I wanted to give good, readable code to everyone who wants to read it. In the company I have a deal with C++, Python, Oracle SQL database, many functional style code, cooperation by HTTP of several remoted systems.
+</p>
+        </div>
+        <div class="w3-padding w3-half">
+          <h4>NewTeleSystems</h4>
+          <p>I worked at NTS (New Tele Systems) in 2011-2012. It is an Internet provider company. It was open a new department which goal was development a commutator device like Cisco devices (with Cisco ALU). When I come to team our guys developed hardware scheme and start to write C++ programming code for main device daemon. They use a contract with the Cisco company for getting their ALU source codes. My goal was emplementing a web service daemon for setting up a device by a browser. I've been realize a main web service daemon which used the mongoose web server and communicate with a main device daemon by XMLRPC protocol for a device control. All this was written in C++. We can't allow us some modern scripting languages like Python, Perl, PHP, due to constraints of the device memory. I've learned there several languages like Javascript, CSS, HTML, Jquery for a web page implementation. The feature of the page was it's a mostly dynamic nature. I am not become a professional web developer of course, but I've been obtain common knowledge about a subject and I was performing tasks assigned to me. In my spare time I read about some web design or jquery features for make my design and functionality better. The web page in a final stage be able to fully control a device like a command like interface. The device was embedded in a current working network to many houses over the city.</p>
+        </div>
+      </div>
+
+      <div class="w3-theme w3-container w3-padding w3-center card">
+        <h3 class="w3-center">
+          Contacts<br>
+          <img src="images/line.png" class="image w3-center"></img><br>
+        </h3>
+        <div>
+          <span>You can feel free to write me: <a href="mailto:idfumg@gmail.com" id="contact">idfumg@gmail.com</a></span>
+        </div>
+      </div>
+
+    </div>
+
+    <script>
+        function set_display(name, value) {
+            document.getElementById(name).style.display = value;
+        }
+        function show_home() {
+            set_display('about', 'none');
+            set_display('home', 'block');
+            TypingText.runAll();
+        }
+        function show_about() {
+            set_display('about', 'block');
+            set_display('home', 'none');
+        }
+        new TypingText(document.getElementById("welcome-typing"));
+        TypingText.runAll();
+    </script>
+
+  </body>
+</html>
